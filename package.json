@@ -2,7 +2,7 @@
   "name": "github-user-repo-search",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://samuelidehen.github.io/sam-github-search",
+  "homepage": "https://samuelidehen.github.io/sam-github-search-react",
   "dependencies": {
     "axios": "^0.18.0",
     "gh-pages": "^2.2.0",
@@ -27,7 +27,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "deploy": "npm run build&&gh-pages -d build",
+    "deplo": "npm run build&&gh-pages -d build",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
